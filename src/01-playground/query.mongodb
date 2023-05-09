@@ -1,4 +1,4 @@
-use("sample_training")
+/*use("sample_training")
 db.zips.find({state:"NY"})
 
 
@@ -37,3 +37,15 @@ db.routes.find({airplane: "CR2"})
 
 use("sample_training")
 db.routes.find({src_airport: "DME"})
+
+
+use("sample_training")
+db.grades.find({class_id: 339})
+
+use("catalogo_de_ventas_deportes")
+db.cliente.insertOne({name:"Richard_walt",address:"2056 NE 254 ST",
+phone:"+1886324965"})*/
+
+use("catalogo_de_ventas_deportes")
+db.proveedor.insertOne({name:"uniformedSAS",
+product:"Gloves"})

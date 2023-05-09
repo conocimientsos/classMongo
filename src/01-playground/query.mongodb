@@ -1,0 +1,39 @@
+use("sample_training")
+db.zips.find({state:"NY"})
+
+
+use("sample_training")
+db.zips.find({city:"GOVERNORS ISLAND"})
+
+use("sample_training")
+db.zips.find({zip: "35014"})
+
+use("sample_training")
+db.zips.find({zip: "35014"})
+
+use("sample_training")
+db.zips.find({state: "AL"})
+
+
+use("sample_training")
+db.inspections.find({date: "Feb 20 2015"})
+
+
+use("sample_training")
+db.inspections.find({business_name: "A&C CHIMNEY CORP."})
+
+
+use("sample_training")
+db.inspections.find({result: "Violation Issued"})
+
+
+use("sample_training")
+db.inspections.find({certificate_number: 5346909})
+
+
+use("sample_training")
+db.routes.find({airplane: "CR2"})
+
+
+use("sample_training")
+db.routes.find({src_airport: "DME"})
